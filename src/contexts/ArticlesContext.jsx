@@ -213,7 +213,7 @@ Um sketchbook cheio de estudos vale muito mais do que um caderno perfeito guarda
 `
 
 ,
-    coverImage: '/public/imgs/sketchbooks.png',
+    coverImage: '/imgs/sketchbooks.png',
     category: 'Dicas',
     coverImageMobile:'/public/imgs/sketchbooksMobile.png',
     summary:"texto do blog",
