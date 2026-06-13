@@ -215,7 +215,7 @@ Um sketchbook cheio de estudos vale muito mais do que um caderno perfeito guarda
 ,
     coverImage: '/imgs/sketchbooks.png',
     category: 'Dicas',
-    coverImageMobile:'/public/imgs/sketchbooksMobile.png',
+    coverImageMobile:'/imgs/sketchbooksMobile.png',
     summary:"texto do blog",
     publicationDate: '2023-10-15',
     author:'Gustavo Oliveira',
