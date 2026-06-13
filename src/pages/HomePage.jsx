@@ -55,7 +55,7 @@ pintura e estudos. Guias completos, avaliações
 e recomendações para artistas e estudantes." />
       </Helmet>
 
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white mb-20">
         <Navigation />
 
         {/* Hero Section */}
