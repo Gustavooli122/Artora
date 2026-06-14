@@ -50,9 +50,10 @@ Antes de analisar os modelos, é importante entender alguns critérios:
 
 # 1. Canson ArTBook One A5
 
-![Canson ArtBook One](https://m.media-amazon.com/images/I/61YBdFGaH8L._AC_SL1500_.jpg)
+![Canson ArtBook One](https://m.media-amazon.com/images/I/71t5CLhl+ZL._AC_SL1500_.jpg)
 
-[👉 Ver preço na Amazon](https://amzn.to/3SHfWuX)
+[Ver preço na Amazon, 98 folhas](https://amzn.to/4aAPgCj)
+[Ver preço na Amazon, 80 folhas](https://amzn.to/4uw91C9)
 
 O ArTBook One é um dos sketchbooks mais recomendados para iniciantes graças ao excelente equilíbrio entre qualidade e preço.
 
@@ -74,7 +75,9 @@ O ArTBook One é um dos sketchbooks mais recomendados para iniciantes graças ao
 
 ![Canson XL Croquis](/imgs/articles/canson-xl-croquis.jpg)
 
-[👉 Ver preço na Amazon](LINK_AFILIADO_2)
+[Ver preço na Amazon, 60 folhas](https://amzn.to/3SHfWuX)
+[Ver preço na Amazon, 100 folhas](https://amzn.to/4eaqgEb)
+
 
 A linha XL Croquis foi criada especialmente para estudantes de arte.
 
@@ -93,9 +96,9 @@ A linha XL Croquis foi criada especialmente para estudantes de arte.
 
 # 3. Strathmore Série 400 Sketch
 
-![Strathmore 400](/imgs/articles/strathmore-400.jpg)
+![Strathmore 400](https://m.media-amazon.com/images/I/61b7RiUCW6L._AC_SL1000_.jpg)
 
-[👉 Ver preço na Amazon](LINK_AFILIADO_3)
+ Ver preço na Amazon](https://amzn.to/4eoVoi2)
 
 Uma das linhas mais tradicionais entre artistas e estudantes.
 
@@ -114,9 +117,9 @@ Uma das linhas mais tradicionais entre artistas e estudantes.
 
 # 4. Hahnemühle Sketch Book
 
-![Hahnemuhle Sketchbook](/imgs/articles/hahnemuhle-sketchbook.jpg)
+![Hahnemuhle Sketchbook](https://m.media-amazon.com/images/I/71RB3G1R1VL._AC_SL1500_.jpg)
 
-[👉 Ver preço na Amazon](LINK_AFILIADO_4)
+[Ver preço na Amazon](https://amzn.to/4oy57HM)
 
 Modelo muito respeitado por artistas profissionais.
 
@@ -133,11 +136,11 @@ Modelo muito respeitado por artistas profissionais.
 
 ---
 
-# 5. Moleskine Art Sketchbook
+# 5. Moleskine Art Plus Sketchbook
 
-![Moleskine Sketchbook](/imgs/articles/moleskine-sketchbook.jpg)
+![Moleskine Sketchbook](https://m.media-amazon.com/images/I/81eCXweNwnL._AC_SL1500_.jpg)
 
-[👉 Ver preço na Amazon](LINK_AFILIADO_5)
+[Ver preço na Amazon](https://amzn.to/4oqumeS)
 
 Muito popular entre ilustradores e desenhistas urbanos.
 
@@ -156,9 +159,9 @@ Muito popular entre ilustradores e desenhistas urbanos.
 
 # 6. Canson XL Mix Media
 
-![Canson XL Mix Media](/imgs/articles/canson-mix-media.jpg)
+![Canson XL Mix Media](https://m.media-amazon.com/images/I/71z5rzEtR4S._AC_SL1500_.jpg)
 
-[👉 Ver preço na Amazon](LINK_AFILIADO_6)
+[ Ver preço na Amazon](https://amzn.to/4gkQNA6)
 
 Ideal para quem deseja experimentar diferentes técnicas.
 
@@ -177,9 +180,9 @@ Ideal para quem deseja experimentar diferentes técnicas.
 
 # 7. Hahnemühle D&S Sketchbook
 
-![Hahnemuhle D&S](/imgs/articles/hahnemuhle-ds.jpg)
+![Hahnemuhle D&S](https://m.media-amazon.com/images/I/61QzHYlfMRL._AC_SL1500_.jpg)
 
-[👉 Ver preço na Amazon](LINK_AFILIADO_7)
+[Ver preço na Amazon](https://amzn.to/4vNFBjU)
 
 Excelente opção para quem deseja evoluir para materiais mais avançados.
 
