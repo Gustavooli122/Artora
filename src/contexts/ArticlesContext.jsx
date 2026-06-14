@@ -15,13 +15,14 @@ const initialArticles = [
   {
     id: slugify('Os 7 Melhores Sketchbooks para Iniciantes em 2026'),
     title: 'Os 7 Melhores Sketchbooks para Iniciantes em 2026',
+    linksArticle:[],
     description: '',
 content: `
 # Os 7 Melhores Sketchbooks para Iniciantes em 2026
 
 Escolher um bom sketchbook é uma das decisões mais importantes para quem está começando a desenhar. O sketchbook será o lugar onde você praticará fundamentos, registrará ideias e acompanhará sua evolução ao longo do tempo.
 
-![Sketchbook Capa](/imgs/articles/sketchbook-capa.jpg)
+
 
 ---
 
@@ -49,9 +50,9 @@ Antes de analisar os modelos, é importante entender alguns critérios:
 
 # 1. Canson ArTBook One A5
 
-![Canson ArtBook One](/imgs/articles/canson-artbook-one.jpg)
+![Canson ArtBook One](https://m.media-amazon.com/images/I/61YBdFGaH8L._AC_SL1500_.jpg)
 
-[👉 Ver preço na Amazon](LINK_AFILIADO_1)
+[👉 Ver preço na Amazon](https://amzn.to/3SHfWuX)
 
 O ArTBook One é um dos sketchbooks mais recomendados para iniciantes graças ao excelente equilíbrio entre qualidade e preço.
 

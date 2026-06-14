@@ -3,7 +3,16 @@ import ReactMarkdown from "react-markdown";
 export default function Markdown({ contents }) {
   return (
     <ReactMarkdown
-      components={{
+      components={
+       {
+    img: ({ node, ...props }) => (
+      <img
+        {...props}
+        className="w-64 h-auto m-auto rounded-lg"
+        alt={props.alt}
+      />
+    ),
+  
         h1: ({ children }) => (
           <h1 className="text-3xl font-bold text-gray-700 mb-4">
             {children}
