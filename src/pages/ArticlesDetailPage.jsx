@@ -12,10 +12,10 @@ import { Calendar, User, Clock, Tag } from 'lucide-react';
 const ArticlesDetailPages = ()=>{
 const {id} = useParams();
 
-const {getArticleById,getArticlesByCategory} = useArticles();
+const {getArticleById,getArticlesByCategory, initialArticles} = useArticles();
 const slugId = slugify(id)
 const artigoAtual = getArticleById(id);
-const artigosRelacionados = getArticlesByCategory(artigoAtual.category)
+const artigosRelacionados = initialArticles.filter((article)=> article.category === artigoAtual.category && article.id !== id)
 
 const navegate = useNavigate()
   if (!artigoAtual) {

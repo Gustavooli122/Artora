@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-
+import { slugify } from '../lib/utils';
 const ProductContext = createContext();
 
 export const useProducts = () => {
@@ -13,39 +13,39 @@ export const useProducts = () => {
 const initialProducts = [
   // Halteres Ajustáveis
   {
-    id: 'p1',
-    name: 'Kit Halteres Ajustáveis 5-25kg',
-    description: 'Sistema de ajuste rápido de peso, ideal para progressão de carga sem ocupar espaço. Substitui 15 pares de halteres convencionais.',
-    price: 899.90,
-    image: 'https://images.unsplash.com/photo-1703407999713-16b2d437dc87',
-    category: 'Halteres Ajustáveis',
+    id: slugify('DALER ROWNEY Simply Sketchbook'),
+    name: 'DALER ROWNEY Simply Sketchbook',
+    description: 'Papel para Desenho em Caderneta, com Espiral, Tamanho A5, Gramatura 100 g/m²',
+    price: 30.70,
+    image: 'https://m.media-amazon.com/images/I/81lMs3U2x7L._AC_SL1500_.jpg',
+    category: 'Desenho',
     rating: 4.8,
-    reviewsCount: 124,
-    affiliate_link: '#',
-    relatedArticles: ['a1', 'a2']
+    reviewsCount: "Mais de 500",
+    affiliate_link: 'https://amzn.to/4ouIjID',
+    relatedArticles: [slugify('DALER ROWNEY Simply Sketchbook')]
   },
   {
-    id: 'p2',
-    name: 'Par de Halteres Sextavados 2-15kg',
-    description: 'Design emborrachado que protege o piso e não rola. Pegada ergonômica cromada para maior conforto durante o exercício.',
-    price: 450.00,
-    image: 'https://images.unsplash.com/photo-1703407999713-16b2d437dc87',
-    category: 'Halteres Ajustáveis',
-    rating: 4.9,
-    reviewsCount: 89,
-    affiliate_link: '#',
-    relatedArticles: ['a2']
+    id: slugify('Sketchbook A5 100g') ,
+    name: 'Sketchbook A5 100g/m²',
+    description: 'Canson, ArTBook One, 98 Folhas',
+    price: 42.30,
+    image: 'https://m.media-amazon.com/images/I/71t5CLhl+ZL._AC_SL1500_.jpg',
+    category: 'Desenho',
+    rating: 4.8,
+    reviewsCount:"Mais de 12.000",
+    affiliate_link: 'https://amzn.to/4aNA0ly',
+    relatedArticles: [slugify('DALER ROWNEY Simply Sketchbook')]
   },
   {
-    id: 'p3',
-    name: 'Halter Ajustável Profissional 10-30kg',
-    description: 'Para quem busca cargas mais altas. Mecanismo de alta precisão e durabilidade superior. O melhor investimento para sua home gym.',
-    price: 1299.90,
-    image: 'https://images.unsplash.com/photo-1703407999713-16b2d437dc87',
-    category: 'Halteres Ajustáveis',
-    rating: 5.0,
-    reviewsCount: 42,
-    affiliate_link: '#',
+    id: slugify('Tilibra Caderno Espiral Capa Dura Universitário'),
+    name: 'Tilibra - Caderno Espiral Capa Dura Universitário',
+    description: '20 Matérias Zip Preto 320 Folhas',
+    price: 43.53,
+    image: 'https://m.media-amazon.com/images/I/41Y6r0eKP4L._AC_SL1200_.jpg',
+    category: 'Papelaria',
+    rating: 4.8,
+    reviewsCount: "Mais de 13.000",
+    affiliate_link: 'https://amzn.to/4xwuLR7',
     relatedArticles: ['a1', 'a2']
   },
   // Elásticos
@@ -55,7 +55,7 @@ const initialProducts = [
     description: 'Conjunto completo com 5 níveis de intensidade. Perfeito para assistências na barra fixa, alongamentos e fortalecimento muscular.',
     price: 129.90,
     image: 'https://images.unsplash.com/photo-1527933053326-89d1746b76b9',
-    category: 'Elásticos',
+    category: 'Papelaria',
     rating: 4.7,
     reviewsCount: 215,
     affiliate_link: '#',
@@ -67,7 +67,7 @@ const initialProducts = [
     description: 'Ideais para ativação de glúteos e estabilização de ombros. Material em látex natural de alta durabilidade que não enrola.',
     price: 59.90,
     image: 'https://images.unsplash.com/photo-1527933053326-89d1746b76b9',
-    category: 'Elásticos',
+    category: 'Arte digital',
     rating: 4.6,
     reviewsCount: 340,
     affiliate_link: '#',
@@ -80,7 +80,7 @@ const initialProducts = [
     description: 'Instalação por pressão sem parafusos. Pegada em espuma confortável e suporta até 100kg. Essencial para treinos de costas.',
     price: 149.90,
     image: 'https://images.unsplash.com/photo-1590239683542-02b00a999f50',
-    category: 'Barras de Porta',
+    category: 'Arte digital',
     rating: 4.5,
     reviewsCount: 156,
     affiliate_link: '#',
@@ -92,7 +92,7 @@ const initialProducts = [
     description: 'Múltiplas pegadas para variações de exercícios. Estrutura reforçada que permite exercícios abdominais e flexões de braço no chão.',
     price: 229.90,
     image: 'https://images.unsplash.com/photo-1590239683542-02b00a999f50',
-    category: 'Barras de Porta',
+    category: 'Papelaria',
     rating: 4.9,
     reviewsCount: 98,
     affiliate_link: '#',
@@ -100,15 +100,15 @@ const initialProducts = [
   },
   // Tapetes e Kettlebells
   {
-    id: 'p8',
-    name: 'Yoga Mat Premium Antiderrapante',
-    description: 'Espessura ideal de 6mm para proteger articulações. Textura aderente que funciona mesmo com suor intenso. Fácil de limpar.',
-    price: 189.90,
-    image: 'https://images.unsplash.com/photo-1591291621060-89264efbeaed',
-    category: 'Tapetes e Kettlebells',
+    id: slugify('Lápis Grafite Nº 2HB'),
+    name: 'Lápis Grafite Nº 2HB',
+    description: 'Faber-Castell, SM/1210AZ, EcoLápis, Azul, 6 Unidades',
+    price: 10.20,
+    image: 'https://m.media-amazon.com/images/I/51Wys+21tmL._AC_SL1000_.jpg',
+    category: 'Desenho',
     rating: 4.8,
-    reviewsCount: 412,
-    affiliate_link: '#',
+    reviewsCount: "Mais de 1.000",
+    affiliate_link: 'https://amzn.to/449fisC',
     relatedArticles: ['a1', 'a3']
   },
   {
@@ -117,7 +117,7 @@ const initialProducts = [
     description: 'Acabamento em pintura eletrostática e base plana para estabilidade. Perfeito para iniciantes em swings e agachamentos.',
     price: 159.90,
     image: 'https://images.unsplash.com/photo-1659134202480-800452946338',
-    category: 'Tapetes e Kettlebells',
+    category: 'Papelaria',
     rating: 4.9,
     reviewsCount: 67,
     affiliate_link: '#',
@@ -129,7 +129,7 @@ const initialProducts = [
     description: 'Padrão oficial de competição com dimensões uniformes. Alça polida para transições suaves sem machucar as mãos.',
     price: 349.90,
     image: 'https://images.unsplash.com/photo-1659134202480-800452946338',
-    category: 'Tapetes e Kettlebells',
+    category: 'Arte digital',
     rating: 5.0,
     reviewsCount: 45,
     affiliate_link: '#',
@@ -140,7 +140,7 @@ const initialProducts = [
 export const ProductProvider = ({ children }) => {
 
   const getProductById = (id) => initialProducts.find(p => p.id === id);
-
+ 
   const getProductsByCategory = (category) => {
     if (!category) return initialProducts;
     return initialProducts.filter(p => p.category === category);

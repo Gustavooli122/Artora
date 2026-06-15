@@ -91,11 +91,11 @@ const ProductDetailPage = () => {
                 transition={{ duration: 0.6 }}
                 className="relative"
               >
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-square bg-gray-100">
+                <div className="relative rounded-2xl  overflow-hidden shadow-2xl aspect-square bg-gray-100">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-cover"
+                    className=" m-auto"
                   />
                   <div className="absolute top-4 right-4">
                     <span className="px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-sm font-semibold rounded-full shadow-lg">
@@ -149,12 +149,12 @@ const ProductDetailPage = () => {
                   className="flex items-center justify-center gap-3 w-full px-8 py-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-lg font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 mb-4"
                 >
                   <ShoppingCart className="w-6 h-6" />
-                  <span>Comprar Agora</span>
+                  <span>Ver na Amazon</span>
                   <ExternalLink className="w-5 h-5" />
                 </button>
 
                 <p className="text-sm text-gray-500 text-center">
-                  Você será redirecionado para o site oficial do vendedor
+                  Você será redirecionado para o site oficial da Amazon
                 </p>
               </motion.div>
             </div>

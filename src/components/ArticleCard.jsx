@@ -40,7 +40,7 @@ const ArticleCard = ({ article }) => {
           <Calendar className="w-4 h-4" />
           <span>{new Date(article.publicationDate).toLocaleDateString('pt-BR')}</span>
         </div>
-
+<Link to={`/articles/${article.id}`}>
         <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-purple-600 transition-colors">
           {article.title}
         </h3>
@@ -50,8 +50,8 @@ const ArticleCard = ({ article }) => {
         </p>
 
         
-          <Link to={`/articles/${article.id}`}  className="inline-flex items-center gap-2 text-purple-600 font-semibold group-hover:gap-3 transition-all"> Ler Artigo <ArrowRight className="w-4 h-4" /></Link>
-        
+          <p  className="inline-flex items-center gap-2 text-purple-600 font-semibold group-hover:gap-3 transition-all"> Ler Artigo <ArrowRight className="w-4 h-4" /></p>
+        </Link>
       </div>
     </motion.div>
   );
