@@ -201,9 +201,9 @@ Excelente opção para quem deseja evoluir para materiais mais avançados.
 
 # Qual sketchbook escolher?
 
-Se você está comprando seu primeiro sketchbook, o **Canson ArTBook One A5** oferece provavelmente o melhor equilíbrio entre qualidade, preço e durabilidade.
+Se você está comprando seu primeiro sketchbook, o [Canson ArTBook One A5](https://amzn.to/4aAPgCj) oferece provavelmente o melhor equilíbrio entre qualidade, preço e durabilidade.
 
-Já para quem deseja experimentar diferentes materiais, o **Canson XL Mix Media** é uma excelente escolha.
+Já para quem deseja experimentar diferentes materiais, o [Canson XL Mix Media](https://amzn.to/4gkQNA6) é uma excelente escolha.
 
 ---
 
