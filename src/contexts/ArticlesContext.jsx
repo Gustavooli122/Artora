@@ -99,7 +99,7 @@ A linha XL Croquis foi criada especialmente para estudantes de arte.
 
 ![Strathmore 400](https://m.media-amazon.com/images/I/61b7RiUCW6L._AC_SL1000_.jpg)
 
- Ver preço na Amazon](https://amzn.to/4eoVoi2)
+ [Ver preço na Amazon](https://amzn.to/4eoVoi2)
 
 Uma das linhas mais tradicionais entre artistas e estudantes.
 
