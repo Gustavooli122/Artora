@@ -20,9 +20,9 @@ const initialProducts = [
     image: 'https://m.media-amazon.com/images/I/81lMs3U2x7L._AC_SL1500_.jpg',
     category: 'Desenho',
     rating: 4.8,
-    reviewsCount: "Mais de 500",
+    reviewsCount: "500",
     affiliate_link: 'https://amzn.to/4ouIjID',
-    relatedArticles: [slugify('DALER ROWNEY Simply Sketchbook')]
+    relatedArticles: [slugify('Os 7 Melhores Sketchbooks para Iniciantes em 2026')]
   },
   {
     id: slugify('Sketchbook A5 100g') ,
@@ -32,9 +32,9 @@ const initialProducts = [
     image: 'https://m.media-amazon.com/images/I/71t5CLhl+ZL._AC_SL1500_.jpg',
     category: 'Desenho',
     rating: 4.8,
-    reviewsCount:"Mais de 12.000",
+    reviewsCount:"12.000",
     affiliate_link: 'https://amzn.to/4aNA0ly',
-    relatedArticles: [slugify('DALER ROWNEY Simply Sketchbook')]
+    relatedArticles: [slugify('Os 7 Melhores Sketchbooks para Iniciantes em 2026')]
   },
   {
     id: slugify('Tilibra Caderno Espiral Capa Dura Universitário'),
@@ -44,47 +44,58 @@ const initialProducts = [
     image: 'https://m.media-amazon.com/images/I/41Y6r0eKP4L._AC_SL1200_.jpg',
     category: 'Papelaria',
     rating: 4.8,
-    reviewsCount: "Mais de 13.000",
+    reviewsCount: "13.000",
     affiliate_link: 'https://amzn.to/4xwuLR7',
-    relatedArticles: ['a1', 'a2']
+    relatedArticles: []
   },
   // Elásticos
   {
-    id: 'p4',
-    name: 'Kit Super Bands Resistência Variável',
-    description: 'Conjunto completo com 5 níveis de intensidade. Perfeito para assistências na barra fixa, alongamentos e fortalecimento muscular.',
-    price: 129.90,
-    image: 'https://images.unsplash.com/photo-1527933053326-89d1746b76b9',
+    id: slugify('Caderno Universitário Capa Dura Sem Pauta 1 Matéria 96 Folhas'),
+    name: 'Caderno Universitário Capa Dura Sem Pauta 1 Matéria 96 Folhas',
+    description: `Páginas em branco com Infinitas possibilidades Ideal para notas, esboços e muito mais!
+96 folhas sem pauta com capa dura e espiral
+Tamanho universitário(20 x 27,5 cm).`,
+    price: 43.53,
+    image: 'https://m.media-amazon.com/images/I/41HAK6su-CL._AC_SL1000_.jpg',
     category: 'Papelaria',
     rating: 4.7,
-    reviewsCount: 215,
-    affiliate_link: '#',
-    relatedArticles: ['a5', 'a1']
+    reviewsCount: 300,
+    affiliate_link: 'https://amzn.to/3S6ACfS',
+    relatedArticles: []
   },
   {
-    id: 'p5',
-    name: 'Mini Bands Loop Set Premium',
-    description: 'Ideais para ativação de glúteos e estabilização de ombros. Material em látex natural de alta durabilidade que não enrola.',
-    price: 59.90,
-    image: 'https://images.unsplash.com/photo-1527933053326-89d1746b76b9',
+    id: slugify('Luva de Desenho para Mesa Digitalizadora Profissional'),
+    name: 'Luva de Desenho para Mesa Digitalizadora Profissional',
+    description: `para Tablet iPad e Papel Reduz Atrito Evita Manchas e Melhora Precisão.
+ ## Marca	Genérico
+ Sistema operacional	Windows
+## Características especiais
+Redução de atrito para traços mais suaves e precisos
+## Usos específicos do produto	
+Desenhar
+Componentes incluídos	1 Luva para desenho
+    `,
+    price: 19.90,
+    image: 'https://m.media-amazon.com/images/I/61PDY6MbiyL._AC_SL1500_.jpg',
     category: 'Arte digital',
-    rating: 4.6,
-    reviewsCount: 340,
-    affiliate_link: '#',
-    relatedArticles: ['a5']
+    rating: 4.7,
+    reviewsCount: 150,
+    affiliate_link: 'https://amzn.to/43Dk6q4',
+    relatedArticles: []
   },
   // Barras de Porta
   {
-    id: 'p6',
-    name: 'Barra de Porta Ajustável Standard',
-    description: 'Instalação por pressão sem parafusos. Pegada em espuma confortável e suporta até 100kg. Essencial para treinos de costas.',
-    price: 149.90,
-    image: 'https://images.unsplash.com/photo-1590239683542-02b00a999f50',
+    id:slugify('MEKO Universal Stylus,Série Precision 2 em 1'),
+    name: 'MEKO Universal Stylus,Série Precision 2 em 1',
+    description: `Canetas de tela sensível ao toque para todas as telas sensíveis ao toque capacitivas, celulares, tablets, laptops, pacote com 6 pontas de substituição
+    `,
+    price: 109.81,
+    image: 'https://m.media-amazon.com/images/I/61RM7v6s+TL._AC_SL1151_.jpg',
     category: 'Arte digital',
     rating: 4.5,
-    reviewsCount: 156,
-    affiliate_link: '#',
-    relatedArticles: ['a6']
+    reviewsCount: "28.000",
+    affiliate_link: 'https://amzn.to/4vRgGw0',
+    relatedArticles: []
   },
   {
     id: 'p7',

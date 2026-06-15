@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
+import Markdown from '../components/Markedown';
 import ProductCard from '../components/ProductCard';
 import ArticleCard from '../components/ArticleCard';
 import { useProducts } from '../contexts/ProductContext';
@@ -91,11 +92,11 @@ const ProductDetailPage = () => {
                 transition={{ duration: 0.6 }}
                 className="relative"
               >
-                <div className="relative rounded-2xl  overflow-hidden shadow-2xl aspect-square bg-gray-100">
+                <div className="relative rounded-2xl flex justify-center items-center overflow-hidden shadow-2xl aspect-square ">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className=" m-auto"
+                    className="w-96  m-auto"
                   />
                   <div className="absolute top-4 right-4">
                     <span className="px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-sm font-semibold rounded-full shadow-lg">
@@ -122,12 +123,12 @@ const ProductDetailPage = () => {
                   </div>
                   <div className="flex items-center gap-1 text-yellow-500">
                     <span className="font-bold text-lg">{product.rating}</span>
-                    <span className="text-sm text-gray-500">({product.reviewsCount} avaliações)</span>
+                    <span className="text-sm text-gray-500">(`Mais de {product.reviewsCount} avaliações`)</span>
                   </div>
                 </div>
 
                 <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                  {product.description}
+               <Markdown contents={product.description}/>
                 </p>
 
                 {/* Features */}
