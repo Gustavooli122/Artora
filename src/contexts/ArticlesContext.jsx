@@ -76,8 +76,7 @@ O ArTBook One é um dos sketchbooks mais recomendados para iniciantes graças ao
 
 ![Canson XL Croquis](https://m.media-amazon.com/images/I/917xFa9NUnL._AC_SL1500_.jpg)
 
-[Ver preço na Amazon, 60 folhas](https://amzn.to/3SHfWuX)
-[Ver preço na Amazon, 100 folhas](https://amzn.to/4eaqgEb)
+[Ver preço na Amazon](https://amzn.to/4eaqgEb)
 
 
 A linha XL Croquis foi criada especialmente para estudantes de arte.
