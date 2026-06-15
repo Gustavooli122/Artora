@@ -53,6 +53,7 @@ Antes de analisar os modelos, é importante entender alguns critérios:
 ![Canson ArtBook One](https://m.media-amazon.com/images/I/71t5CLhl+ZL._AC_SL1500_.jpg)
 
 [Ver preço na Amazon, 98 folhas](https://amzn.to/4aAPgCj)
+
 [Ver preço na Amazon, 80 folhas](https://amzn.to/4uw91C9)
 
 O ArTBook One é um dos sketchbooks mais recomendados para iniciantes graças ao excelente equilíbrio entre qualidade e preço.
@@ -73,7 +74,7 @@ O ArTBook One é um dos sketchbooks mais recomendados para iniciantes graças ao
 
 # 2. Canson XL Croquis
 
-![Canson XL Croquis](/imgs/articles/canson-xl-croquis.jpg)
+![Canson XL Croquis](https://m.media-amazon.com/images/I/917xFa9NUnL._AC_SL1500_.jpg)
 
 [Ver preço na Amazon, 60 folhas](https://amzn.to/3SHfWuX)
 [Ver preço na Amazon, 100 folhas](https://amzn.to/4eaqgEb)
