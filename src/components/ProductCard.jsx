@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
         </div>
       </div>
 
-      {/* Product Info */}
+      {/* Product Info */}<Link  to={`/produtos/${product.id}`}>
       <div className="p-6">
         <h3 className="text-xl font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors">
           {product.name}
@@ -39,14 +39,13 @@ const ProductCard = ({ product }) => {
           </div>
         </div>
 
-        <Link
-          to={`/produtos/${product.id}`}
+        <div
           className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
         >
           <span>Ver Detalhes</span>
           <ExternalLink className="w-4 h-4" />
-        </Link>
-      </div>
+        </div>
+      </div></Link>
 
       {/* Hover Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-purple-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
