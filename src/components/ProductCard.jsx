@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
-
+import Markdown from './Markedown';
 const ProductCard = ({ product }) => {
   return (
     <motion.div
@@ -30,7 +30,7 @@ const ProductCard = ({ product }) => {
           {product.name}
         </h3>
         <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-          {product.description}
+         <Markdown contents={product.description}/>
         </p>
         
         <div className="flex items-center justify-between mb-4">

@@ -17,7 +17,7 @@ const initialProducts = [
     id: slugify('DALER ROWNEY Simply Sketchbook'),
     name: 'DALER ROWNEY Simply Sketchbook',
     description: `
-## DALER ROWNEY Simply Sketchbook
+### DALER ROWNEY Simply Sketchbook
 - Sketchbook com papel de 100 g/m² ideal para desenhos, esboços e estudos. 
 - Formato A5 com espiral para maior praticidade durante o uso. 
 - Folhas resistentes que suportam lápis, canetas e técnicas secas. 
@@ -36,7 +36,7 @@ const initialProducts = [
   {
     id: slugify('Sketchbook A5 100g') ,
     description: `
-  ## Sketchbook A5 100g/m²
+  ### Sketchbook A5 100g/m²
    - Sketchbook Canson ArTBook One com 98 folhas de alta qualidade. 
    - Papel 100 g/m² ideal para desenhos, rascunhos e ilustrações. 
    - Formato compacto A5, perfeito para levar na mochila. 
@@ -56,7 +56,7 @@ const initialProducts = [
     id: slugify('Tilibra Caderno Espiral Capa Dura Universitário'),
     name: 'Tilibra - Caderno Espiral Capa Dura Universitário',
     description: `
-    # Tilibra - Caderno Espiral Capa Dura Universitário
+### Tilibra - Caderno Espiral Capa Dura Universitário
    - Caderno universitário com 20 matérias e 320 folhas.
    - Capa dura resistente para maior durabilidade no dia a dia. 
    - Ideal para organizar diferentes disciplinas e projetos. 
@@ -76,11 +76,11 @@ const initialProducts = [
     id: slugify('Caderno Universitário Capa Dura Sem Pauta 1 Matéria 96 Folhas'),
     name: 'Caderno Universitário Capa Dura Sem Pauta 1 Matéria 96 Folhas',
     description: `
-    # Caderno Universitário Capa Dura Sem Pauta 
-    - Possui 96 folhas sem pauta para máxima liberdade criativa. 
-    - Ideal para desenhos, esboços, anotações e projetos. 
-    - Capa dura resistente e espiral para maior praticidade. 
-    - Tamanho universitário de 20 x 27,5 cm.`,
+### Caderno Universitário Capa Dura Sem Pauta 
+- Possui 96 folhas sem pauta para máxima liberdade criativa. 
+- Ideal para desenhos, esboços, anotações e projetos. 
+- Capa dura resistente e espiral para maior praticidade. 
+- Tamanho universitário de 20 x 27,5 cm.`,
     price: 43.53,
      features:{frete:false,garantia:false, qualidade:false},
     image: 'https://m.media-amazon.com/images/I/41HAK6su-CL._AC_SL1000_.jpg',
@@ -94,7 +94,7 @@ const initialProducts = [
     id: slugify('Luva de Desenho para Mesa Digitalizadora Profissional'),
     name: 'Luva de Desenho para Mesa Digitalizadora Profissional',
     description: `para Tablet iPad e Papel Reduz Atrito Evita Manchas e Melhora Precisão.
- ## Marca	Genérico
+### Marca	Genérico
  Sistema operacional	Windows
 ## Características especiais
 Redução de atrito para traços mais suaves e precisos
@@ -116,11 +116,11 @@ Componentes incluídos	1 Luva para desenho
     id:slugify('MEKO Universal Stylus,Série Precision 2 em 1'),
     name: 'MEKO Universal Stylus,Série Precision 2 em 1',
     description: `
-    # MEKO Universal Stylus 2 em 1 
-    - Caneta touch compatível com celulares, tablets e notebooks. 
-    - Ponta precisa para desenhos, anotações e navegação. 
-    - Inclui 6 pontas de reposição para maior durabilidade. 
-    - Compatível com a maioria das telas capacitivas do mercado.
+### MEKO Universal Stylus 2 em 1 
+- Caneta touch compatível com celulares, tablets e notebooks. 
+- Ponta precisa para desenhos, anotações e navegação. 
+- Inclui 6 pontas de reposição para maior durabilidade. 
+- Compatível com a maioria das telas capacitivas do mercado.
     `,
     price: 109.81,
     image: 'https://m.media-amazon.com/images/I/61RM7v6s+TL._AC_SL1151_.jpg',
@@ -135,11 +135,11 @@ Componentes incluídos	1 Luva para desenho
     id: slugify('Caderno Sem Pauta A5 Caderneta'),
     name: 'Caderno Sem Pauta A5 Caderneta',
     description: `
-    # Caderno Sem Pauta A5 Caderneta 
-    - Caderno compacto com 80 folhas sem pauta. 
-    - Capa dura com fechamento em elástico para maior proteção. 
-    - Ideal para anotações, desenhos e organização diária. 
-    - Formato portátil de 14 x 21 cm, fácil de transportar.
+### Caderno Sem Pauta A5 Caderneta 
+- Caderno compacto com 80 folhas sem pauta. 
+- Capa dura com fechamento em elástico para maior proteção. 
+- Ideal para anotações, desenhos e organização diária. 
+- Formato portátil de 14 x 21 cm, fácil de transportar.
     `,
     price: 27.90,
     image: 'https://m.media-amazon.com/images/I/41IKH0t9GTL._AC_SL1192_.jpg',
@@ -155,7 +155,7 @@ Componentes incluídos	1 Luva para desenho
     id: slugify('Lápis Grafite Nº 2HB'),
     name: 'Lápis Grafite Nº 2HB',
     description:` 
-## Lápis Grafite Nº 2HB Faber-Castell 
+### Lápis Grafite Nº 2HB Faber-Castell 
 - Kit com 6 EcoLápis grafite de alta qualidade. 
 - Traço suave e preciso para escrita e desenho. 
 - Fabricado com madeira reflorestada e acabamento resistente. 
@@ -195,7 +195,8 @@ Componentes incluídos	1 Luva para desenho
   {
     id: slugify('Confetti Caderno com divisórias, 8023 HPP, Capa Preto'),
     name: 'Confetti - Caderno com divisórias, 8023 HPP, Capa Preto',
-    description: `# Caderno Confetti 8023 HPP com Divisórias
+    description: `
+## Caderno Confetti 8023 HPP com Divisórias
 
 * Caderno com divisórias internas para organizar matérias, projetos e anotações.
 * Capa em polipropileno (PP), resistente a rasgos e à umidade.
