@@ -54,11 +54,14 @@ const ProductDetailPage = () => {
     });
   };
 
+
   const features = [
-    { icon: <Shield className="w-6 h-6" />, text: 'Garantia de Fábrica' },
-    { icon: <TruckIcon className="w-6 h-6" />, text: 'Frete Grátis*' },
-    { icon: <Award className="w-6 h-6" />, text: 'Qualidade Premium' }
+    { icon: <Shield className="w-6 h-6" />, text: 'Garantia de Fábrica',feature:product.features.garantia },
+    { icon: <TruckIcon className="w-6 h-6" />, text: 'Frete Grátis*', feature:product.features.frete },
+    { icon: <Award className="w-6 h-6" />, text: 'Qualidade Premium', feature: product.features.qualidade}
   ];
+const pegarFeature = ()=> features.filter((f)=> f.feature === true);
+const featuresFiltrada = pegarFeature()
 
   return (
     <>
@@ -133,17 +136,20 @@ const ProductDetailPage = () => {
 
                 {/* Features */}
                 <div className="flex flex-wrap gap-4 mb-8">
-                  {features.map((feature, index) => (
+                  {featuresFiltrada && featuresFiltrada.map((feature, index)=>(
                     <div
                       key={index}
                       className="flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md border border-gray-100"
                     >
                       <div className="text-purple-600">{feature.icon}</div>
                       <span className="text-sm font-medium text-gray-700">{feature.text}</span>
-                    </div>
+                    
+                      </div>
                   ))}
                 </div>
 
+                  
+                    
                 {/* Buy Button */}
                 <button
                   onClick={handleBuyNow}

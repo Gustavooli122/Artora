@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { slugify } from '../lib/utils';
+
 const ProductContext = createContext();
 
 export const useProducts = () => {
@@ -19,6 +20,7 @@ const initialProducts = [
     price: 30.70,
     image: 'https://m.media-amazon.com/images/I/81lMs3U2x7L._AC_SL1500_.jpg',
     category: 'Desenho',
+    features:{frete:true,garantia:true, qualidade:false},
     rating: 4.8,
     reviewsCount: "500",
     affiliate_link: 'https://amzn.to/4ouIjID',
@@ -32,6 +34,7 @@ const initialProducts = [
     image: 'https://m.media-amazon.com/images/I/71t5CLhl+ZL._AC_SL1500_.jpg',
     category: 'Desenho',
     rating: 4.8,
+     features:{frete:false,garantia:false, qualidade:false},
     reviewsCount:"12.000",
     affiliate_link: 'https://amzn.to/4aNA0ly',
     relatedArticles: [slugify('Os 7 Melhores Sketchbooks para Iniciantes em 2026')]
@@ -41,6 +44,7 @@ const initialProducts = [
     name: 'Tilibra - Caderno Espiral Capa Dura Universitário',
     description: '20 Matérias Zip Preto 320 Folhas',
     price: 43.53,
+     features:{frete:false,garantia:false, qualidade:false},
     image: 'https://m.media-amazon.com/images/I/41Y6r0eKP4L._AC_SL1200_.jpg',
     category: 'Papelaria',
     rating: 4.8,
@@ -56,6 +60,7 @@ const initialProducts = [
 96 folhas sem pauta com capa dura e espiral
 Tamanho universitário(20 x 27,5 cm).`,
     price: 43.53,
+     features:{frete:false,garantia:false, qualidade:false},
     image: 'https://m.media-amazon.com/images/I/41HAK6su-CL._AC_SL1000_.jpg',
     category: 'Papelaria',
     rating: 4.7,
@@ -79,6 +84,7 @@ Componentes incluídos	1 Luva para desenho
     image: 'https://m.media-amazon.com/images/I/61PDY6MbiyL._AC_SL1500_.jpg',
     category: 'Arte digital',
     rating: 4.7,
+     features:{frete:false,garantia:false, qualidade:false},
     reviewsCount: 150,
     affiliate_link: 'https://amzn.to/43Dk6q4',
     relatedArticles: []
@@ -93,20 +99,22 @@ Componentes incluídos	1 Luva para desenho
     image: 'https://m.media-amazon.com/images/I/61RM7v6s+TL._AC_SL1151_.jpg',
     category: 'Arte digital',
     rating: 4.5,
+     features:{frete:false,garantia:false, qualidade:false},
     reviewsCount: "28.000",
     affiliate_link: 'https://amzn.to/4vRgGw0',
     relatedArticles: []
   },
   {
-    id: 'p7',
-    name: 'Barra Fixa Multifuncional Heavy Duty',
-    description: 'Múltiplas pegadas para variações de exercícios. Estrutura reforçada que permite exercícios abdominais e flexões de braço no chão.',
-    price: 229.90,
-    image: 'https://images.unsplash.com/photo-1590239683542-02b00a999f50',
+    id: slugify('Caderno Sem Pauta A5 Caderneta'),
+    name: 'Caderno Sem Pauta A5 Caderneta',
+    description: '80 Folhas 14x21 Capa Dura com Elástico Preto',
+    price: 27.90,
+    image: 'https://m.media-amazon.com/images/I/41IKH0t9GTL._AC_SL1192_.jpg',
     category: 'Papelaria',
-    rating: 4.9,
-    reviewsCount: 98,
-    affiliate_link: '#',
+    rating: 4.7,
+     features:{frete:false,garantia:false, qualidade:false},
+    reviewsCount: 200,
+    affiliate_link: 'https://amzn.to/4xQ281F',
     relatedArticles: ['a6', 'a1']
   },
   // Tapetes e Kettlebells
@@ -118,6 +126,7 @@ Componentes incluídos	1 Luva para desenho
     image: 'https://m.media-amazon.com/images/I/51Wys+21tmL._AC_SL1000_.jpg',
     category: 'Desenho',
     rating: 4.8,
+     features:{frete:false,garantia:false, qualidade:false},
     reviewsCount: "Mais de 1.000",
     affiliate_link: 'https://amzn.to/449fisC',
     relatedArticles: ['a1', 'a3']
@@ -130,6 +139,7 @@ Componentes incluídos	1 Luva para desenho
     image: 'https://images.unsplash.com/photo-1659134202480-800452946338',
     category: 'Papelaria',
     rating: 4.9,
+     features:{frete:false,garantia:false, qualidade:false},
     reviewsCount: 67,
     affiliate_link: '#',
     relatedArticles: ['a4']
@@ -142,6 +152,7 @@ Componentes incluídos	1 Luva para desenho
     image: 'https://images.unsplash.com/photo-1659134202480-800452946338',
     category: 'Arte digital',
     rating: 5.0,
+    features:{frete:false,garantia:false, qualidade:false},
     reviewsCount: 45,
     affiliate_link: '#',
     relatedArticles: ['a4', 'a2']
