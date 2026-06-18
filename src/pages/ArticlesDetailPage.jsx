@@ -8,6 +8,7 @@ import Footer from "../components/footer"
 import { useNavigate } from "react-router-dom"
 import Navigation from "../components/Navigation"
 import { slugify } from '../lib/utils';
+import { Helmet } from 'react-helmet'
 import { Calendar, User, Clock, Tag } from 'lucide-react';
 const ArticlesDetailPages = ()=>{
 const {id} = useParams();
@@ -39,11 +40,15 @@ const navegate = useNavigate()
   }
 return(
     <main>
+      <Helmet>
+        <title>{artigoAtual.title} - Artora</title>
+        <meta name="description" content={artigoAtual.summary} />
+      </Helmet>
         <div className="min-h-screen bg-white">
       <Navigation />
 
       {/* Hero */}
-      <div className="relative h-[50vh] min-h-[400px]">
+      <div className="relative    h-[50vh] min-h-[400px]">
         <img src={artigoAtual.coverImage} alt={artigoAtual.title} className="w-full h-full hidden md:flex object-cover" />
         <img src={artigoAtual.coverImageMobile} alt={artigoAtual.title} className="w-full h-full flex md:hidden object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30" />
@@ -55,7 +60,7 @@ return(
                 {artigoAtual.category}
               </span>
 
-              <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                 {artigoAtual.title}
               </h1>
 
@@ -80,7 +85,7 @@ return(
 
       {/* Conteúdo */}
       <div className="max-w-4xl mx-auto px-4 py-12 prose prose-lg">
-        <p className="text-xl text-gray-600 mb-8 border-l-4 border-indigo-600 pl-4">
+        <p className="text-md sm:text-lg md:text-xl text-gray-600 mb-8 border-l-4 border-indigo-600 pl-4">
           {artigoAtual.summary}
         </p>
 

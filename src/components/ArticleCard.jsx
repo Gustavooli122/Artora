@@ -10,7 +10,7 @@ const ArticleCard = ({ article }) => {
       transition={{ duration: 0.3 }}
       className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group flex flex-col h-full"
     >
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative h-80 overflow-hidden">
         <img
           src={article.coverImage}
           alt={article.title}

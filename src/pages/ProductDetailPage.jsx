@@ -66,7 +66,7 @@ const featuresFiltrada = pegarFeature()
   return (
     <>
       <Helmet>
-        <title>{product.name} - AffiliateHub</title>
+        <title>{product.name} - Artora</title>
         <meta name="description" content={product.description} />
       </Helmet>
 

@@ -8,7 +8,7 @@ export default function Markdown({ contents }) {
     img: ({ node, ...props }) => (
       <img
         {...props}
-        className="w-64 h-auto m-auto rounded-lg"
+        className="w-[85%] sm:w-[50%] md:w-[30%] h-auto my-5 rounded-xl"
         alt={props.alt}
       />
     ),
@@ -19,7 +19,7 @@ export default function Markdown({ contents }) {
           </h1>
         ),
           h2: ({ children }) => (
-          <h1 className="text-xl font-bold text-gray-900 mb-4">
+          <h1 className="text-xl font-bold text-gray-800 mb-4">
             {children}
           </h1>
         ),
